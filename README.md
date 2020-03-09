@@ -13,19 +13,19 @@ Finally, the performance is important, and you are the expert! Please let us kno
 
 ## Let’s do it
 We included a candidate mockup.png as a base guide, but any improvement is well received!.
-You can check the complete category page [here](http://challenge.mejuri.com/shop/t/type).
+You can check the complete category page [here](http://dev1.mejuri.com/shop/t/type).
 
 ### All the products in a single endpoint
-`http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type`
+`http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type`
 
 ### The products separated by type
-`http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type/:category-slug`
+`http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/:category-slug`
 
 **Examples**
-- Rings: http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type/rings
-- Necklaces: http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type/pendants
-- Earrings:  http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type/earrings
-- Bracelets + Anklets: http://challenge.mejuri.com/api/v1/taxon/collections-by-categories/type/bracelets
+- Rings: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/rings
+- Necklaces: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/pendants
+- Earrings:  http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/earrings
+- Bracelets + Anklets: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/bracelets
 
 ### Your app should be able to
 - Read the data from the Json
