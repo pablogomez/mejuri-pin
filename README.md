@@ -5,7 +5,7 @@ We gonna try to make this challenge and opportunity to see your skills and also 
 
 ## The concept
 You are a front-end rockstar and Mejuri contacted you to create the next product that will change the world: Mejuri PIN.
-The main idea is to create a board like pinterest with all the Mejuri products, and allow the user to like it.
+The main idea is to create a board like pinterest with all the Mejuri products, and allow the user to like them.
 Also the user should be able to list only the liked products and filter the content by category.
 
 Of Course this site should look awesome in mobile! Because everybody loves browsing with their phones!
@@ -40,7 +40,7 @@ You can check the complete category page [here](http://dev1.mejuri.com/shop/t/ty
 ## Libraries
 - Please do not use other JS frameworks, such as JQuery, Angular, etc. Full development in React/Redux is mandatory for this challenge.
 - We would love to see you implement [Styled Components](https://www.styled-components.com/).
-- Feel free to use other UI components and libraries, like [Material UI](https://github.com/mui-org/material-ui).
+- Feel free to use other UI components and libraries, like [Material UI](https://github.com/mui-org/material-ui) if you consider it is needed.
 
 **Objectives for this coding challenge**
 - We would like to see how you organize and think your solutions in React/Redux.
