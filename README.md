@@ -5,21 +5,19 @@ We gonna try to make this challenge and opportunity to see your skills and also 
 
 ## The concept
 You are a front-end rockstar and Mejuri contacted you to create the next product that will change the world: Mejuri PIN.
-The main idea is to create a board like pinterest with all the Mejuri products, and allow the user to like them.
-Also the user should be able to list only the liked products and filter the content by category.
+The main idea is to create a pinterest like board, showing all the Mejuri products, and also allow the user to like them.
+The user should also be able to list only the liked products and filter the content by category.
 
 Of Course this site should look awesome in mobile! Because everybody loves browsing with their phones!
+
 Finally, the performance is important, and you are the expert! Please let us know about the strategies used in behalf of optimization and browser performance.
 
 ## Let’s do it
 We included a candidate mockup.png as a base guide, but any improvement is well received!.
-You can check the complete category page [here](http://dev1.mejuri.com/shop/t/type).
+You can check the complete category page [here](mejuri.com/shop/t/type).
 
 ### All the products in a single endpoint
-`http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type`
-
-### The products separated by type
-`http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/:category-slug`
+`http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/shop_all.json`
 
 **Examples**
 - Rings: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/rings
@@ -27,22 +25,26 @@ You can check the complete category page [here](http://dev1.mejuri.com/shop/t/ty
 - Earrings:  http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/earrings
 - Bracelets + Anklets: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/bracelets
 
-### Your app should be able to
-- Read the data from the Json
-- Render the products by category and show the name of the products when the user puts the cursor over the product image.
-- Save your favorite products and list it
-- Filter by category.
+- Bracelets: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/bracelets.json
+- Earrings: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/earrings.json
+- Engagement: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/engagement.json
+- Pendants: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/pendants.json
+- Rings: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/rings.json
+- Staking sets: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/stacking-sets.json
 
-## A technical consideration
-- To avoid CORS errors when fetching the endpoint, your local server should run in `localhost` on port `3100`: 
-`http://localhost:3100/`
+### Your app should be able to
+- Read the data from the json sources.
+- Render the products by category and show the name of the products when the user places the cursor over the product image.
+- Save your favorite products and list them in a separate section.
+- Filter by category.
 
 ## Libraries
 - Please do not use other JS frameworks, such as JQuery, Angular, etc. Full development in React/Redux is mandatory for this challenge.
 - We would love to see you implement [Styled Components](https://www.styled-components.com/).
-- Feel free to use other UI components and libraries, like [Material UI](https://github.com/mui-org/material-ui) if you consider it is needed.
+- Feel free to use other complementary libraries you consider useful for this case.
 
-**Objectives for this coding challenge**
-- We would like to see how you organize and think your solutions in React/Redux.
-- We would like to see if you are able to work with json data, create your own responsive design.
+**Objectives of this coding challenge**
+- We would like to see how you organize and think your solution in React/Redux.
+- We would like to see how you work with json data.
+- We will check how the application feels in a cellphone or tablet.
 - Most importantly, we would like you to have fun doing it!
