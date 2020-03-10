@@ -20,17 +20,13 @@ You can check the complete category page [here](mejuri.com/shop/t/type).
 `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/shop_all.json`
 
 **Examples**
-- Rings: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/rings
-- Necklaces: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/pendants
-- Earrings:  http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/earrings
-- Bracelets + Anklets: http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/bracelets
-
-- Bracelets: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/bracelets.json
-- Earrings: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/earrings.json
-- Engagement: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/engagement.json
-- Pendants: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/pendants.json
-- Rings: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/rings.json
-- Staking sets: http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/stacking-sets.json
+- Bracelets: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/bracelets.json`
+- Necklaces: `http://dev1.mejuri.com/api/v1/taxon/collections-by-categories/type/pendants`
+- Earrings: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/earrings.json`
+- Engagement: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/engagement.json`
+- Pendants: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/pendants.json`
+- Rings: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/rings.json`
+- Staking sets: `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/stacking-sets.json`
 
 ### Your app should be able to
 - Read the data from the json sources.
