@@ -14,7 +14,7 @@ Finally, the performance is important, and you are the expert! Please let us kno
 
 ## Let’s do it
 We included a candidate mockup.png as a base guide, but any improvement is well received!.
-You can check the complete category page [here](mejuri.com/shop/t/type).
+You can check the complete category page [here](https://mejuri.com/shop/t/type).
 
 ### All the products in a single endpoint
 `http://mejuri-fe-challenge.s3-website-us-east-1.amazonaws.com/shop_all.json`
