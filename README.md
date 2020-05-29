@@ -35,12 +35,11 @@ You can check the complete category page [here](https://mejuri.com/shop/t/type).
 - Filter by category.
 
 ## Libraries
-- Please do not use other JS frameworks, such as JQuery, Angular, etc. Full development in React/Redux is mandatory for this challenge.
+- Please do not use other JS frameworks, such as JQuery, Angular, etc. Full development in React is mandatory for this challenge.
 - We would love to see you implement [Styled Components](https://www.styled-components.com/).
-- Feel free to use other complementary libraries you consider useful for this case.
 
 **Objectives of this coding challenge**
-- We would like to see how you organize and think your solution in React/Redux.
+- We would like to see how you organize and think your solution in React.
 - We would like to see how you work with json data.
 - We will check how the application feels in a cellphone or tablet.
 - Most importantly, we would like you to have fun doing it!
