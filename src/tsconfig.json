@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "rootDir": "src",
+    "jsx": "react",
+    "noEmit": true,
+    "isolatedModules": true,
+    "types": ["node", "jest"]
+  }
+}
