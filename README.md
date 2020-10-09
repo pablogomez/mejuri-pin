@@ -1,20 +1,36 @@
 # Developer NOTES:
 
 Totally had fun performing the challenge, even though it took me almost 4 days to wrap it up having the real site as a guideline proved to be a good practice, i'm not a UI designer so regarding look & feel the page could be over simplistic or even clumsy, feedback is always welcome.
+
 Things to consider, I didn't use Redux because I've considered as a part of the challenge only using plain React and hooks. So instead of using redux I've followed the path of implementing an extremely simple notification mechanism using the old and trusted observer pattern to dispatch events through the React component tree, you may find the implementation on "storage/index.ts".
-Also, the app was written in Typescript so you will find some -simple- types all over the place to aid the code traversal and readability.
-Some of the images from cloudfront were throwing 403.
+
+Also, the app was written in **Typescript** so you will find some -simple- types all over the place to aid the code traversal and readability.
+
+Sidenote here, some of the images from cloudfront were throwing 403.
+
 I've tested the app using the Chrome Device tool to emulate Iphone and Moto G4 and making sure the site adapted the layout (i'm using a hook called react-responsive for the navigation bar)
 
 Regarding performance:
-1 - Some of the components were memoized to avoid useless re-rendering, images are using lazy-load and are scaled accordingly to the devices resolution.
-2 - Queries against the JSON sources in S3 are cached with a default TTL.
-3 - Dense images could use some compression besides Gzip, i would consider Brotly since in the past we had a good results changing compression algorithms for images. But it's out of the scope of the challenge.
 
-Running the app:
+- Some of the components were memoized to avoid useless re-rendering, images are using lazy-load and are scaled accordingly to the devices resolution.
 
-$# npm install
-$# npm run start
+- Queries against the JSON sources in S3 are cached with a default TTL.
+
+- Dense images could use some compression besides Gzip, i would consider Brotly since in the past we had a good results changing compression algorithms for images. But it's out of the scope of the challenge.
+
+... Running the app:
+
+- Install the packages
+
+```bash
+npm install
+```
+
+- Execute
+
+```bash
+npm run start
+```
 
 Will open default port and you should have server running at localhost:3000
 
